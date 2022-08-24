@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_home_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
