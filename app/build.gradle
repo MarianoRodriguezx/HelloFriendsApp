@@ -2,9 +2,11 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id("androidx.navigation.safeargs")
-    id("kotlin-android")
-    id("kotlin-kapt")
-    id("dagger.hilt.android.plugin")
+
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -80,4 +82,14 @@ dependencies {
 
     testImplementation "com.google.dagger:hilt-android-testing:$hilt_version"
     kaptTest "com.google.dagger:hilt-compiler:$hilt_version"
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+}
+
+hilt {
+    enableAggregatingTask = true
+}
+
+kapt {
+    correctErrorTypes true
 }

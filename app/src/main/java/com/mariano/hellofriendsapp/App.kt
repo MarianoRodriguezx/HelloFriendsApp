@@ -1,7 +1,8 @@
 package com.mariano.hellofriendsapp
 
 import android.app.Application
-import androidx.appcompat.app.AppCompatDelegate
+import android.content.Context
+import android.content.SharedPreferences
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
@@ -11,6 +12,10 @@ class App: Application() {
         super.onCreate()
         appSingleton = this
         //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+    }
+
+    fun getSharedPrefs(): SharedPreferences {
+        return getSharedPreferences("HelloFriendsAppData", Context.MODE_PRIVATE)
     }
 
     companion object {

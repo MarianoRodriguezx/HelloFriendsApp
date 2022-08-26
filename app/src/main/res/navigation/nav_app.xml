@@ -26,7 +26,11 @@
         android:id="@+id/searchFragment"
         tools:layout="@layout/fragment_search"
         android:name="com.mariano.hellofriendsapp.views.users.SearchFragment"
-        android:label="SearchFragment" />
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/search_to_detail"
+            app:destination="@id/detailContactFragment" />
+    </fragment>
 
     <action
         android:id="@+id/global_home"
@@ -47,5 +51,31 @@
         android:id="@+id/global_profile"
         app:destination="@id/profileFragment"
         app:popUpToInclusive="true"/>
+    <fragment
+        android:id="@+id/detailContactFragment"
+        tools:layout="@layout/fragment_detail_contact"
+        android:name="com.mariano.hellofriendsapp.views.users.DetailContactFragment"
+        android:label="DetailContactFragment">
+
+        <argument
+            android:name="id"
+            app:argType="integer"
+            app:nullable="false"
+            />
+
+        <argument
+            android:name="username"
+            app:argType="string"
+            app:nullable="false"
+            />
+
+        <argument
+            android:name="image_profile"
+            app:argType="string"
+            app:nullable="false"
+            />
+
+
+    </fragment>
 
 </navigation>

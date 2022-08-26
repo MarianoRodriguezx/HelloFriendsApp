@@ -1,16 +1,16 @@
-package com.mariano.hellofriendsapp
+package com.mariano.hellofriendsapp.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
-import android.widget.Toast
-import androidx.navigation.NavAction
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination
 import androidx.navigation.fragment.NavHostFragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.mariano.hellofriendsapp.NavAppDirections
+import com.mariano.hellofriendsapp.R
 import com.mariano.hellofriendsapp.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), NavController.OnDestinationChangedListener {
 
     private lateinit var navController: NavController

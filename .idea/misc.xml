@@ -3,16 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/drawable/bottom_list.xml" value="0.1785" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/activity_login.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_contacts.xml" value="0.1" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_detail_contact.xml" value="0.25" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_home.xml" value="0.18" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_home_screen.xml" value="0.2" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_prueba.xml" value="0.2" />
-        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/fragment_search.xml" value="0.22" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/layout/item_search.xml" value="0.25" />
         <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1015" />
+        <entry key="..\:/Users/Mariano Rodriguez/Documents/GitHub/HelloFriendsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1155" />
       </map>
     </option>
   </component>
