@@ -12,7 +12,7 @@ import dagger.hilt.components.SingletonComponent
 object AppModule {
 
     @Provides
-    fun provideURL(): String = "http://192.168.1.6:3333/"
+    fun provideURL(): String = "http://192.168.1.173:3333/"
 
     @Provides
     fun provideApplication(): App = App.getInstance()

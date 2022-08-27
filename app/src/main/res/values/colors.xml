@@ -10,4 +10,6 @@
 
     <color name="green">#4CAF50</color>
     <color name="red">#F44336</color>
+
+    <color name="background_principal">#5DADE2</color>
 </resources>

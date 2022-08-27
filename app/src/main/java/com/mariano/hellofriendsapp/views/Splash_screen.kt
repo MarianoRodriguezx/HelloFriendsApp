@@ -26,10 +26,9 @@ class Splash_screen : AppCompatActivity() {
         backgroundImage.startAnimation(slideAnimation)
 
         val app = App.getInstance()
-
         val token = app.getSharedPrefs().getString("ACCESS_TOKEN", null)
 
-        if (token != null)
+        if (token == null)
         {
             Handler().postDelayed({
                 val intent = Intent(this, Login::class.java)

@@ -21,7 +21,12 @@
         android:id="@+id/profileFragment"
         tools:layout="@layout/fragment_profile"
         android:name="com.mariano.hellofriendsapp.views.users.ProfileFragment"
-        android:label="ProfileFragment" />
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/profileFragment_to_login"
+            app:destination="@id/login2"
+            app:popUpTo="@id/login2"/>
+    </fragment>
     <fragment
         android:id="@+id/searchFragment"
         tools:layout="@layout/fragment_search"
@@ -77,5 +82,10 @@
 
 
     </fragment>
+    <activity
+        android:id="@+id/login2"
+        android:name="com.mariano.hellofriendsapp.views.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
 
 </navigation>
