@@ -15,7 +15,11 @@
         android:id="@+id/contactsFragment"
         tools:layout="@layout/fragment_contacts"
         android:name="com.mariano.hellofriendsapp.views.users.ContactsFragment"
-        android:label="ContactsFragment" />
+        android:label="ContactsFragment" >
+        <action
+            android:id="@+id/contacts_to_radio"
+            app:destination="@id/radioFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/profileFragment"
@@ -87,5 +91,18 @@
         android:name="com.mariano.hellofriendsapp.views.Login"
         android:label="activity_login"
         tools:layout="@layout/activity_login" />
+
+    <fragment
+        android:id="@+id/radioFragment"
+        tools:layout="@layout/fragment_radio"
+        android:name="com.mariano.hellofriendsapp.views.comunication.RadioFragment"
+        android:label="RadioFragment">
+
+        <argument
+            android:name="id_contact"
+            app:argType="integer"
+            app:nullable="false"
+            />
+    </fragment>
 
 </navigation>

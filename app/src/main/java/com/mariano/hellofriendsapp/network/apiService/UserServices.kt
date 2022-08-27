@@ -1,9 +1,6 @@
 package com.mariano.hellofriendsapp.network.apiService
 
-import com.mariano.hellofriendsapp.utils.models.DataProfile
-import com.mariano.hellofriendsapp.utils.models.TokenClosed
-import com.mariano.hellofriendsapp.utils.models.TokenResponse
-import com.mariano.hellofriendsapp.utils.models.searchUsers
+import com.mariano.hellofriendsapp.utils.models.*
 import retrofit2.http.Field
 import retrofit2.Call
 import retrofit2.http.FormUrlEncoded
@@ -30,5 +27,8 @@ interface UserServices {
 
     @GET("userInfo")
     fun userInfo(): Call<Response<DataProfile>>
+
+    @GET("contactos")
+    fun contactos(): Call<Response<List<Contacts>>>
 
 }
